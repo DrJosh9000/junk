@@ -46,7 +46,7 @@ func process(filename string) error {
 }
 
 func main() {
-	for _, fn := range os.Args {
+	for _, fn := range os.Args[1:] {
 		if err := process(fn); err != nil {
 			log.Println(err)
 		}
