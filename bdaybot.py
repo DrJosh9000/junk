@@ -14,9 +14,9 @@ bday_db = {
 }
 
 api = twitter.Api(access_token_key='Get your own token key!', 
-				  access_token_secret='Get your own secret!', 
-				  consumer_key='Get your own consumer key!', 
-				  consumer_secret='Get your own secret!')
+		  access_token_secret='Get your own secret!', 
+		  consumer_key='Get your own consumer key!', 
+		  consumer_secret='Get your own secret!')
 
 now = datetime.datetime.now()
 
